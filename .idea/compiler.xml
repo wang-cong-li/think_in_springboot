@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springframework506RELEASE" />
+        <module name="springboot202RELEASE" />
+        <module name="springboot218RELEASE" />
+        <module name="springboot119RELEASE" />
+        <module name="document" />
+        <module name="springframework256RELEASE" />
+        <module name="springboot1510RELEASE" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+</project>
