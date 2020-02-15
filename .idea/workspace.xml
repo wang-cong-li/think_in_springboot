@@ -284,7 +284,7 @@
     <property name="SearchEverywhereHistoryKey" value="SpringBoot&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.SpringBootApplication&#10;MetaDataReader&#9;PSI&#9;JAVA://org.springframework.core.type.classreading.MetadataReader&#10;ComponentScanBeanDefinitionParser&#9;PSI&#9;JAVA://org.springframework.context.annotation.ComponentScanBeanDefinitionParser&#10;spring.handlers&#9;FILE&#9;jar://E:/maven/repository/org/springframework/spring-context/2.5.6.SEC03/spring-context-2.5.6.SEC03.jar!/META-INF/spring.handlers&#10;Re&#9;FILE&#9;jar://E:/maven/repository/org/springframework/spring-context/2.5.6.SEC03/spring-context-2.5.6.SEC03.jar!/org/springframework/stereotype/Repository.class&#10;Repository&#9;FILE&#9;jar://E:/maven/repository/org/springframework/spring-context/2.5.6.SEC03/spring-context-2.5.6.SEC03.jar!/org/springframework/stereotype/Repository.class&#10;Service&#9;FILE&#9;jar://E:/maven/repository/org/springframework/spring-context/2.5.6.SEC03/spring-context-2.5.6.SEC03.jar!/org/springframework/stereotype/Service.class&#10;UtilNamespaceHandler&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.UtilNamespaceHandler&#10;SimplePropertyNamespaceHandler&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581779058068" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581779133455" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -300,6 +300,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.wcl.study.springframework.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IntellIdea_Work\think_in_springboot\springframework-samples\springframework-4.0.0.RELEASE\src\main\java" />
       <recent name="E:\IntellIdea_Work\think_in_springboot\springframework-samples\springframework-4.0.0.RELEASE\src\main\resources" />
