@@ -15,6 +15,7 @@
     <modules>
         <module>springboot-2.0.2.RELEASE</module>
         <module>springboot-2.1.8.RELEASE</module>
+        <module>auto-configuration-sample</module>
     </modules>
 
     <properties>

@@ -10,6 +10,6 @@ import java.util.Collection;
 public class BaseServiceImpl implements BaseService {
     @Override
     public Collection<String> getBaseInfo() {
-        return Arrays.asList("value0","value1");
+        return Arrays.asList("小马哥","大马哥");
     }
 }

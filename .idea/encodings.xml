@@ -7,10 +7,13 @@
     <file url="file://$PROJECT_DIR$/springboot-1.x-samples/springboot-1.1.9.RELEASE" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-1.x-samples/springboot-1.5.10.RELEASE" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-2.x-samples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-2.x-samples/auto-configuration-sample" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-2.x-samples/springboot-2.0.2.RELEASE" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-2.x-samples/springboot-2.1.8.RELEASE" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springframework-samples" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springframework-samples/springframework-2.5.6.RELEASE" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springframework-samples/springframework-3.0.0.RELEASE" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springframework-samples/springframework-4.0.0.RELEASE" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE" charset="UTF-8" />
   </component>
 </project>

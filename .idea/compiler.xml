@@ -6,13 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springframework506RELEASE" />
+        <module name="autoconfigurationsample" />
+        <module name="document" />
+        <module name="springboot-1.1.9.RELEASE" />
+        <module name="springboot-1.5.10.RELEASE" />
+        <module name="springboot-2.0.2.RELEASE" />
+        <module name="springboot-2.1.8.RELEASE" />
+        <module name="springboot119RELEASE" />
+        <module name="springboot1510RELEASE" />
         <module name="springboot202RELEASE" />
         <module name="springboot218RELEASE" />
-        <module name="springboot119RELEASE" />
-        <module name="document" />
+        <module name="springframework-2.5.6.RELEASE" />
+        <module name="springframework-5.0.6.RELEASE" />
         <module name="springframework256RELEASE" />
-        <module name="springboot1510RELEASE" />
+        <module name="springframework300RELEASE" />
+        <module name="springframework400RELEASE" />
+        <module name="springframework506RELEASE" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
