@@ -13,7 +13,7 @@
     <artifactId>springframework-4.0.0.RELEASE</artifactId>
 
     <properties>
-        <springframework.version>4.0.0.RELEASE</springframework.version>
+        <springframework.version>5.2.5.RELEASE</springframework.version>
     </properties>
 
     <dependencies>
