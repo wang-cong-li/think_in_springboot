@@ -11,4 +11,6 @@ import java.lang.annotation.*;
 @Transactional
 @Service
 public @interface TransactionalService {
+
+    String name() default "";
 }

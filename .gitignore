@@ -1,3 +1,4 @@
 /.idea/think_in_springboot.iml
-/.idea/
+/.idea/*
+/.idea/workspace.xml
 /springboot-2.x-samples/websocket-sample/websocket-sample.iml
