@@ -9,6 +9,6 @@
     <context:annotation-config />
 
     <!-- 找寻被@Component或者其派生 Annotation 标记的类（Class），将它们注册为 Spring Bean -->
-    <context:component-scan base-package="springframework" />
+    <context:component-scan base-package="com.wcl.study.springframework" />
 
 </beans>

@@ -10,6 +10,6 @@ public class Application {
         context.refresh();
         System.out.println(context.containsBean("first"));  // true
         System.out.println(context.containsBean("second")); // true
-        System.out.println(context.containsBean("third"));  // false
+        System.out.println(context.containsBean("third"));  // true
     }
 }
