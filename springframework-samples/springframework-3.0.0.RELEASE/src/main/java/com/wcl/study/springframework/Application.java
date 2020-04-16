@@ -11,7 +11,8 @@ public class Application {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:context.xml");
         context.refresh();
-        System.out.println(context.containsBean("first"));
-        System.out.println(context.containsBean("second"));
+        System.out.println(context.containsBean("first")); // true
+        System.out.println(context.containsBean("second")); // false
+        System.out.println(context.containsBean("third"));  // false
     }
 }

@@ -1,4 +1,4 @@
-package springframework.annotation;
+package com.wcl.study.springframework.annotation;
 
 import org.springframework.stereotype.Repository;
 

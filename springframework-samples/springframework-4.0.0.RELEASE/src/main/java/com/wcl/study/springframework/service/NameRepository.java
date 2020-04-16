@@ -1,4 +1,4 @@
-package springframework.service;
+package com.wcl.study.springframework.service;
 
 import java.util.Collection;
 

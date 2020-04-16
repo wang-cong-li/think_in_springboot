@@ -22,7 +22,7 @@ public class WebSocketServer {
 
     private Map<Long, Session> sessionMap = new ConcurrentHashMap<>();
 
-    ThreadLocal<Long>  userIdTL = new ThreadLocal<>();
+    private Long userId;
 
     public void sendInfo(String message, String toUserId) throws IOException {
         System.out.println("发送消息到:"+toUserId+"，报文:"+message);
@@ -40,21 +40,20 @@ public class WebSocketServer {
             sessionMap.remove(userId);
         }
         sessionMap.put(userId, session);
-        userIdTL.set(userId);
+        this.userId = userId;
         ONLINE_COUNT.incrementAndGet();
         session.getBasicRemote().sendText("欢迎来到XXX聊天室~~~");
     }
 
     @OnClose
     public void onClose() {
-        Long userId = userIdTL.get();
+        Long userId = this.userId;
         if (sessionMap.containsKey(userId)) {
             sessionMap.remove(userId);
         }
-        userIdTL.remove();
     }
 
-    @OnMessage(maxMessageSize = 10000)
+    @OnMessage
     public void onMessage(String message, Session session) throws IOException {
         if (!StringUtils.hasText(message)) {
             session.getBasicRemote().sendText("不要发送空消息");
@@ -62,10 +61,10 @@ public class WebSocketServer {
         }
         JSONObject msgBody = JSON.parseObject(message);
         msgBody.put("content",message);
-        msgBody.put("fromUser", userIdTL.get());
-        String toUserId = msgBody.getString("toUser");
+        msgBody.put("fromUser", this.userId);
+        String toUserId = msgBody.getString("toUserId");
         Long userId = Long.parseLong(toUserId);
-        if (userIdTL.get().equals(userId)) {
+        if (this.userId.equals(userId)) {
             session.getBasicRemote().sendText("不要发送消息给自己哦");
             return;
         }
@@ -79,10 +78,15 @@ public class WebSocketServer {
 
     @OnError()
     public void onError(Session session, Throwable error) throws IOException {
-        sessionMap.remove(userIdTL.get());
-        session.close();
-        userIdTL.remove();
+
         System.out.println("error:" + error.getMessage());
+        Long userId = this.userId;
+        System.out.println("OnError::userId:" + userId);
+        if (null == userId) {
+            return;
+        }
+        sessionMap.remove(userId);
+        session.close();
     }
 
 }

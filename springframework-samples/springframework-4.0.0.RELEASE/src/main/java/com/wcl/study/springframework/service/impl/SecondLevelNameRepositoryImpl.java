@@ -1,7 +1,7 @@
-package springframework.service.impl;
+package com.wcl.study.springframework.service.impl;
 
-import springframework.annotation.SecondLevelRepository;
-import springframework.service.NameRepository;
+import com.wcl.study.springframework.annotation.SecondLevelRepository;
+import com.wcl.study.springframework.service.NameRepository;
 
 import java.util.ArrayList;
 import java.util.Collection;

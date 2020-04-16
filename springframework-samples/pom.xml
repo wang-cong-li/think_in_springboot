@@ -20,7 +20,7 @@
     </modules>
 
     <properties>
-        <springframework.version>5.2.5.RELEASE</springframework.version>
+        <springframework.version>5.0.6.RELEASE</springframework.version>
     </properties>
 
     <dependencyManagement>
