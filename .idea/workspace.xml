@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feb04937-2128-4f85-9f0d-5244a32cb170" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/AnnotationAttributesOverrideApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/TranscationalServiceAnnotationRecurselyReflectionBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/TranscationalServiceAnnotationRecurselySpringAnnotationMetadataBootstrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/composed_annotation/TransactionalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/composed_annotation/TransactionalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/service/impl/ComposedAnnotationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/service/impl/ComposedAnnotationServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,19 +49,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/AnnotationAttributesOverrideApplication.java">
+        <entry file="file://$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/TranscationalServiceAnnotationRecurselySpringAnnotationMetadataBootstrap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/annotation/Annotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1448">
-              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+            <state relative-caret-position="648">
+              <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -93,9 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springframework-samples/springframework-2.5.6.RELEASE/src/main/java/com/wcl/study/springframework/service/BaseService.java" />
-        <option value="$PROJECT_DIR$/springframework-samples/springframework-2.5.6.RELEASE/src/main/resources/context.xml" />
-        <option value="$PROJECT_DIR$/document/src/main/resources/chapter7/spring-annotation.md" />
         <option value="$PROJECT_DIR$/springframework-samples/springframework-2.5.6.RELEASE/src/main/java/com/wcl/study/springframework/Application.java" />
         <option value="$PROJECT_DIR$/springframework-samples/springframework-2.5.6.RELEASE/src/main/java/com/wcl/study/springframework/service/impl/BaseServiceImpl.java" />
         <option value="$PROJECT_DIR$/springboot-2.x-samples/auto-configuration-sample/pom.xml" />
@@ -144,6 +131,9 @@
         <option value="$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/composed_annotation/TransactionalService.java" />
         <option value="$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/service/impl/ComposedAnnotationServiceImpl.java" />
         <option value="$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/AnnotationAttributesOverrideApplication.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea.vmoptions" />
+        <option value="$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/TranscationalServiceAnnotationRecurselyReflectionBootstrap.java" />
+        <option value="$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/TranscationalServiceAnnotationRecurselySpringAnnotationMetadataBootstrap.java" />
       </list>
     </option>
   </component>
@@ -174,10 +164,9 @@
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
-    <option name="height" value="729" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -185,8 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,32 +226,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springframework" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="thinkinspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="think_in_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework-5.0.6.RELEASE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="composed_annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thinkinspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="think_in_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework-5.0.6.RELEASE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AnnotationAttributesOverrideApplication">
+  <component name="RunManager" selected="Application.TranscationalServiceAnnotationRecurselySpringAnnotationMetadataBootstrap">
     <configuration name="AnnotationAttributesOverrideApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wcl.study.springframework.AnnotationAttributesOverrideApplication" />
       <module name="springframework506RELEASE" />
@@ -363,31 +330,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebSocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="websocket-sample" />
+    <configuration name="TranscationalServiceAnnotationRecurselyReflectionBootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wcl.study.springframework.TranscationalServiceAnnotationRecurselyReflectionBootstrap" />
+      <module name="springframework-5.0.6.RELEASE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wcl.play.websocket.*" />
+          <option name="PATTERN" value="com.wcl.study.springframework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wcl.play.websocket.WebSocketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TranscationalServiceAnnotationRecurselySpringAnnotationMetadataBootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wcl.study.springframework.TranscationalServiceAnnotationRecurselySpringAnnotationMetadataBootstrap" />
+      <module name="springframework-5.0.6.RELEASE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wcl.study.springframework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Application" />
-      <item itemvalue="Spring Boot.WebSocketApplication" />
       <item itemvalue="Application.ComposedAnnotationApplication" />
       <item itemvalue="Application.AnnotationAttributesOverrideApplication" />
+      <item itemvalue="Application.TranscationalServiceAnnotationRecurselyReflectionBootstrap" />
+      <item itemvalue="Application.TranscationalServiceAnnotationRecurselySpringAnnotationMetadataBootstrap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TranscationalServiceAnnotationRecurselySpringAnnotationMetadataBootstrap" />
+        <item itemvalue="Application.TranscationalServiceAnnotationRecurselyReflectionBootstrap" />
         <item itemvalue="Application.AnnotationAttributesOverrideApplication" />
         <item itemvalue="Application.ComposedAnnotationApplication" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="Spring Boot.WebSocketApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -417,7 +399,10 @@
       <workItem from="1581778825098" duration="233000" />
       <workItem from="1586877062642" duration="4523000" />
       <workItem from="1586998492881" duration="2513000" />
-      <workItem from="1587001280023" duration="7369000" />
+      <workItem from="1587001280023" duration="7401000" />
+      <workItem from="1589094514100" duration="468000" />
+      <workItem from="1589095213484" duration="267000" />
+      <workItem from="1589723085913" duration="3991000" />
     </task>
     <task id="LOCAL-00001" summary="新增springframework注解派生层次验证">
       <created>1587000372037</created>
@@ -440,11 +425,18 @@
       <option name="project" value="LOCAL" />
       <updated>1587025735862</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="理解Spring注解属性覆盖的实现原理（1）">
+      <created>1587028728921</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587028728921</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64911000" />
+    <option name="totallyTimeSpent" value="69669000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,10 +448,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="729" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28175896" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30211726" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -469,7 +461,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49837133" visible="true" weight="0.4158576" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49837133" visible="true" weight="0.4149086" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.512945" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -540,7 +532,8 @@
     <MESSAGE value="新增springframework注解派生层次验证" />
     <MESSAGE value="自定义注解追加&#10;@Documented&#10;@Retention(RetentionPolicy.RUNTIME)&#10;@Target(ElementType.TYPE)&#10;这三个东东" />
     <MESSAGE value="理解Spring组合注解的实现原理" />
-    <option name="LAST_COMMIT_MESSAGE" value="理解Spring组合注解的实现原理" />
+    <MESSAGE value="理解Spring注解属性覆盖的实现原理（1）" />
+    <option name="LAST_COMMIT_MESSAGE" value="理解Spring注解属性覆盖的实现原理（1）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -581,48 +574,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/service/TestRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/service/NameRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/service/impl/FourthLevelNameRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE.jar!/org/springframework/context/annotation/ComponentScanAnnotationParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-832">
-          <caret line="55" column="44" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE.jar!/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="994">
-          <caret line="135" column="9" lean-forward="true" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-2.x-samples/auto-configuration-sample/src/main/java/com/wcl/study/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -858,16 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/ComposedAnnotationApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="144" lean-forward="true" selection-start-line="23" selection-start-column="144" selection-end-line="23" selection-end-column="144" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/SpringBootApplicationMain.http">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -878,26 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/composed_annotation/TransactionalService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/service/impl/ComposedAnnotationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -919,6 +840,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/annotation/Annotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/service/impl/ComposedAnnotationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/composed_annotation/TransactionalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/service/NameRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/service/ComposedAnnotationService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -926,24 +888,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/annotation/Annotation.java">
+    <entry file="file://$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/ComposedAnnotationApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1448">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        <state relative-caret-position="337">
+          <caret line="23" column="144" lean-forward="true" selection-start-line="23" selection-start-column="144" selection-end-line="23" selection-end-column="144" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.6.RELEASE/spring-core-5.0.6.RELEASE.jar!/org/springframework/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        <state relative-caret-position="3028">
+          <caret line="521" column="21" selection-start-line="521" selection-start-column="21" selection-end-line="521" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="3444" column="24" selection-start-line="3444" selection-start-column="24" selection-end-line="3444" selection-end-column="24" />
+          <folding>
+            <element signature="e#139547#139548#0" expanded="true" />
+            <element signature="e#139624#139625#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/AnnotationAttributesOverrideApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="216">
+          <caret line="22" column="73" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/TranscationalServiceAnnotationRecurselyReflectionBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.6.RELEASE/spring-core-5.0.6.RELEASE.jar!/org/springframework/core/type/AnnotatedTypeMetadata.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springframework-samples/springframework-5.0.6.RELEASE/src/main/java/com/wcl/study/springframework/TranscationalServiceAnnotationRecurselySpringAnnotationMetadataBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
         </state>
       </provider>
     </entry>
